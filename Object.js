@@ -3,6 +3,8 @@ let desc = {
     param2 : [1, 2, 3, 4]
 };
 
+console.log(desc["param1"]);
+console.log(desc["param3"]);
 console.log(desc.param1);
 console.log(desc.param2);
 desc.param2.push(5, 6);
