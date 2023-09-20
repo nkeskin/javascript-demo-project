@@ -30,3 +30,17 @@ function toArray(list) {
 let res = toArray(myList);
 
 console.log(res);
+
+function toList(arr) {
+    let list = new List();
+    for (let elem of arr) {
+        let temp = new List();
+        temp.val = elem;
+        list.next = temp;
+    }
+    return list;
+}
+
+let lst = toList([1, 2, 3, 4, 5, 6]);
+
+lst.toString();
