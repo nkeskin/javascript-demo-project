@@ -37,7 +37,7 @@ for (let entry of str) {
 }
 
 let iterator = arr.entries();
-// let res = null;
+let res = null;
 // console.log(iterator.next());
 // console.log(iterator.next());
 // console.log(iterator.next());
