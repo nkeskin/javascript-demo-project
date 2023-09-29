@@ -27,4 +27,5 @@ try {
     throwMyError();
 } catch (error) {
     console.log(error)
+
 }
