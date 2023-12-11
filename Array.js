@@ -1,6 +1,5 @@
 let arr = [];
 let str = "myString";
-
 function printValues() {
     console.log(`arr : ${arr} - len : ${arr.length}`);
     console.log(`str : ${str} - len : ${str.length}`)
